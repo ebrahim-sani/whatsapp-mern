@@ -1,15 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css'
-import Home from './Home'
-import Header from './Header'
+
 
 function App() {
     return (
         <div className="app">
-            <Home />
-
-
-
+          <h1>Lets build a MERN Whatsapp Clone</h1>
         </div>
     )
 }
