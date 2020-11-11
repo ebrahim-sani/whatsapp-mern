@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 const firebaseConfig = {
   apiKey: "AIzaSyDHeR3gmlyYiB5tQmafN5dl1siYL0kJrlU",
   authDomain: "whatsapp-clone-b843e.firebaseapp.com",
