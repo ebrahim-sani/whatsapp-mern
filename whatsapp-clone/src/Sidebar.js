@@ -27,20 +27,43 @@ function Sidebar() {
       </div>
 
       <div className="sidebar__search">
-           <div className='sidebar__searchContainer'>
-              <SearchOutlined />
-              <input type="text" placeholder="Search or start new chat" />
-           </div>
+        <div className="sidebar__searchContainer">
+          <SearchOutlined />
+          <input type="text" placeholder="Search or start new chat" />
+        </div>
       </div>
 
       <div className="sidebar__chats">
-        <SidebarChat />
-        <SidebarChat />
-        <SidebarChat />
-        <SidebarChat />
-        
-      </div>
+        <div className="sidebarChat">
+          <Avatar src="git.png" />
+          <div className="sidebarChat__info">
+            <h2>Github Community</h2>
+            <p>Thank y...</p>
+          </div>
+        </div>
+        <div className="sidebarChat">
+          <Avatar src="link.png" />
+          <div className="sidebarChat__info">
+            <h2>LinkedIn Community</h2>
+            <p>You hav...</p>
+          </div>
+        </div>
+        <div className="sidebarChat">
+          <Avatar src="twit.png" />
+          <div className="sidebarChat__info">
+            <h2>Twitter Community</h2>
+            <p>People sh...</p>
+          </div>
+        </div>
 
+        <div className="sidebarChat">
+          <Avatar src="fb.png" />
+          <div className="sidebarChat__info">
+            <h2>Facebook Community</h2>
+            <p>What cou...</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
